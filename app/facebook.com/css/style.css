@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+background: #5170ad;
+}
+.login-form-wrap {
+  background: radial-gradient(ellipse at center, #5170ad 0%, #355493 100%);
+  border-radius: 0px;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.login-form-wrap > h1 {
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #fff;
+}
+.login-form-wrap > h5 {
+  margin-top: 40px;
+}
+.login-form-wrap > h5 > a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+  width: 100%;
+  border: 1px solid #314d89;
+  outline: none;
+  padding: 15px 20px;
+  color: #afafaf;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+.login-form input[type="text"] {
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  padding-bottom: 15px;
+  box-shadow: 0 -1px 0 #E0E0E0 inset, 0 1px 2px rgba(0, 0, 0, 0.23) inset;
+}
+.login-form input[type="password"] {
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.23) inset, 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+.login-form input[type="submit"] {
+    margin: 40px 23px;
+	width: 86%;
+    font-size: 15pt;
+    padding: 4% 27%;
+    background:#4c69a1;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+	color: #e9ebee;
+}
+

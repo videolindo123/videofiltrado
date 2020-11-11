@@ -1,0 +1,399 @@
+body {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#fff;
+	margin:0px;
+	padding:0px;
+	padding-top: 0px;
+	color: #141823;
+}
+
+#header {
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	height: 40px;
+	width: 100%;
+	background: #4c66a4 url('http://i.imgur.com/FHZpjlj.png') repeat-x;
+	border-bottom: 1px solid #133783;
+	display:;
+}
+
+#header #nav {
+	height: 40px;
+	width: 100%;
+	/* background: url('img/TopNav-pt.PNG') center center no-repeat; */
+	display:;
+}
+
+#BgCuerpo {
+	/* background-image: url('http://i.imgur.com/Az5CJrP.png'); */
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	height: 100%;
+	width: 100%;
+	display:none;
+}
+
+#BodyCuerpo {
+	background-color: rgba(0, 0, 0, .4);
+	width: 100%;
+	height: 100%;
+	top:10px;
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	display:none;
+}
+
+#Cuerpo {
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 2px 26px rgba(0, 0, 0, .3), 0 0 0 1px rgba(0, 0, 0, .1);
+	background: #fff;
+	width: 490px;
+	height: 360px;
+	margin:70px auto 0px;
+}
+
+#CuerpoMain {
+	width: 460px;
+	height: 320px;
+	margin:0px auto;
+	border-bottom: 1px solid #dcdee3;
+	content: "asdsadasd";
+}
+
+#CuerpoImgs {
+	height: 70px;
+	margin:0px auto;
+	padding-top:20px;
+	text-align: center;
+}
+
+#CuerpoImgs .Img {
+	width: 70px;
+	height: 70px;
+	margin:0px auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	display: inline-block;
+}
+
+#TituloCuerpo {
+	margin: 10px auto 0 auto;
+	text-align: center;
+	color: #141823;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#Tbold {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#Candao {
+	width: 430px;
+	margin: auto;
+    margin-top: 12px;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+}
+
+#Candao .Img {
+	margin-bottom: -1px;
+	margin-right: 5px;
+	vertical-align: baseline;
+}
+
+#Formulario {
+	margin: 0px auto 0 auto;
+	text-align: center;
+}
+#Formulario li, ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#Formulario #input {
+	width: 230px;
+	height: 22px;
+	font-size: 12px;
+	border: 1px solid #bdc7d8;
+	padding: 5px 5px;
+}
+
+#Formulario label {
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+    vertical-align: middle;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+}
+
+#Formulario #LoginForm {
+    display: block;
+    float: center;
+    padding: 10px 0px 5px 0px;
+}
+
+/* #BtnIngresa {
+	cursor:pointer;
+	margin:0px auto;
+	margin-top:10px;
+	width: 68px;
+	height: 26px;
+	background: #4c66a4 url('http://i.imgur.com/sbHfhyi.png');
+	display:none;
+}
+
+#BtnIngresa:hover {
+	background-position: -68px;
+} */
+
+input[type=submit]{
+    cursor:pointer;
+	margin:0px auto;
+	margin-top:10px;
+	width: 100px;
+	height: 26px;
+	border:0px;
+	background: #47649F
+	/* url('img/Submit-en.png'); */
+}
+
+input[type=submit]:hover {
+	/* background-position: -68px; */
+}
+
+/* --------------------------------------------------------------------------------------------------- FACEBOOK BUTTONS */
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON */
+
+.uibutton,
+.uibutton:visited {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.3em 0.6em 0.375em;
+    border: 1px solid #999;
+    border-bottom-color: #888;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+    /* outline: none; */
+    color: #333;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
+    background-image: -moz-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: -o-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: linear-gradient(#f5f6f6, #e4e4e3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+
+.uibutton:hover,
+.uibutton:focus,
+.uibutton:active {
+    border-color: #777 #777 #666;
+}
+
+.uibutton:active {
+    border-color: #aaa;
+    background: #ddd;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.uibutton::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/* ............................................................................................................. Icons */
+
+.uibutton.icon:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    float:left;
+    width: 10px;
+    height: 12px;
+    margin: 0 0.5em 0 0;
+    background: url(fb-icons.png) 99px 99px no-repeat;
+}
+
+.uibutton.edit:before  { background-position: 0 0; }
+.uibutton.add:before  { background-position: -10px 0; }
+.uibutton.secure:before  { background-position: -20px 0; }
+.uibutton.prev:before  { background-position: -30px 0; }
+.uibutton.next:before  { float:right; margin: 0 -0.25em 0 0.5em; background-position: -40px 0; }
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON EXTENSIONS */
+
+/* ............................................................................................................. Large */
+
+.uibutton.large {
+    font-size: 13px;
+}
+
+/* ............................................................................................................. Submit, etc */
+
+.uibutton.confirm {
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    background-color: #5B74A8;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#637bad', EndColorStr='#5872a7'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+}
+
+.uibutton.confirm :hover {
+    background-color: #8094BC;
+}
+
+.uibutton.confirm:active {
+    border-color: #29447E;
+    background: #4F6AA3;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ............................................................................................................. Special */
+
+.uibutton.special {
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #fff;
+    background-color: #69a74e;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#75ae5c), to(#67a54b));
+    background-image: -moz-linear-gradient(#75ae5c, #67a54b);
+    background-image: -o-linear-gradient(#75ae5c, #67a54b);
+    background-image: linear-gradient(#75ae5c, #67a54b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#75ae5c', EndColorStr='#67a54b'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+}
+
+.uibutton.special:active {
+    border-color: #3b6e22;
+    background: #609946;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ............................................................................................................. Disable */
+
+.uibutton.disable {
+    z-index: 0;
+    border-color: #c8c8c8;
+    color: #b8b8b8;
+    background: #f2f2f2;
+    cursor: default;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.uibutton.confirm.disable {
+    color: #fff;
+    border-color: #94a2bf;
+    background: #adbad4;
+}
+
+.uibutton.special.disable {
+    color: #fff;
+    border-color: #9db791;
+    background: #b4d3a7;
+}
+
+.uibutton.disable.icon:before,
+.uibutton.disable.icon:after {
+    opacity: 0.5;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON GROUPS */
+
+.uibutton-group {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+
+.uibutton + .uibutton,
+.uibutton + .uibutton-group,
+.uibutton-group + .uibutton,
+.uibutton-group + .uibutton-group {
+    margin-left: 3px;
+}
+
+.uibutton-group li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.uibutton-group .uibutton {
+    float: left;
+    margin-left: -1px;
+}
+
+.uibutton-group .uibutton:hover,
+.uibutton-group .uibutton:focus,
+.uibutton-group .uibutton:active {
+    z-index:2;
+}
+
+.uibutton-group > .uibutton:first-child,
+.uibutton-group li:first-child .uibutton {
+    margin-left: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON CONTAINER */
+/* For mixing buttons and button groups, e.g., in a navigation bar */
+
+.uibutton-toolbar {
+    padding: 6px;
+    border-top: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.uibutton-toolbar .uibutton,
+.uibutton-toolbar .uibutton-group {
+    vertical-align: bottom;
+}

@@ -1,0 +1,1 @@
+Elimina app de la url
